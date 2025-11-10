@@ -11,7 +11,7 @@ export function HeroSection() {
       </span>
 
       <h2 className="mt-10 text-center font-medium text-4xl tracking-tight md:text-6xl">
-        Beautifuly crafted ui blocks
+        Beautifully crafted ui blocks
         <br className="hidden sm:block" /> for building websites
       </h2>
       <p className="mt-10 w-10/12 text-center text-foreground/60 text-text-pretty md:text-balance md:text-lg">

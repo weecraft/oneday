@@ -5,7 +5,7 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: generatedMetadata({
-      title: "Oneday - Beautifuly crafted ui blocks for building websites",
+      title: "Oneday - Beautifully crafted ui blocks for building websites",
       description:
         "A beautiful and serious making ui component & blocks for startups and enterprises to building scalable websites",
     }),
