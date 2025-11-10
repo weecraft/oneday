@@ -1,0 +1,37 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+/* Icons */
+@import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+
+/* Tailwindcss */
+@import "tailwindcss";
+
+@theme {
+  --font-*: initial;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-background: hsl(0 0 100%);
+  --color-foreground: hsl(0 0 0%);
+  --color-surface: hsl(0 0 100%);
+  --color-border: hsl(0 0 92%);
+  --color-input: hsl(0 0 96%);
+  --color-primary: hsl(0 0 0%);
+  --color-primary-foreground: hsl(0 0 98%);
+  --color-secondary: hsl(0 0 96%);
+  --color-secondary-foreground: hsl(0 0 10%);
+  --color-link: hsl(221 83 50%);
+  --color-accent: hsl(0 0 40%);
+}
+
+/* Preset */
+
+body {
+  @apply font-sans text-base font-normal antialiased text-foreground bg-background selection:bg-blue-50;
+}
+
+.fi {
+  @apply flex justify-center items-center text-sm;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "oneday",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "check": "ultracite fix",
+    "build": "turbo run build",
+    "preview": "turbo run preview",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.4",
+    "turbo": "^2.6.0",
+    "ultracite": "6.3.2"
+  },
+  "packageManager": "bun@1.2.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
